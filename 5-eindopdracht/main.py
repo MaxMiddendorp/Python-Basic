@@ -1,9 +1,9 @@
 # Python klok met eigen gebintijd
 
 # Selecteer de starttijd in Uren, Minuten en Seconden
-uren = input("Op welk uur wilt u beginnen:"); uren = int(uren)
-minuten = input("Op welk minuten wilt u beginnen:"); minuten = int(minuten)
-seconden = input("Op welke seconden wilt u beginnen:"); seconden = int(seconden)
+uren = input("Voer uren in:"); uren = int(uren)
+minuten = input("Voer minuten in:"); minuten = int(minuten)
+seconden = input("Voer seconden in:"); seconden = int(seconden)
 
 # Hier wordt de tijd library van python ingegoegd
 import time
