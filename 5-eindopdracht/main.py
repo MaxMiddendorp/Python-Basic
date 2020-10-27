@@ -10,7 +10,7 @@ import time
 # Zolang de loop True is wordt de klok uitgevoerd
 while True:
     # Hier wordt de tijd op het scherm weergeven door de print
-     print(str(uren).zfill(2) + ":" + str(minuten).zfill(2) + ":" + str(seconden))
+     print(str(uren).zfill(2) + ":" + str(minuten).zfill(2) + ":" + str(seconden).zfill(2))
      seconden = seconden + 1
      time.sleep(1)
      # Als de 60 seconden wordt berijkt wordt er een minuut toegevoegd
